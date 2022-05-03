@@ -5,10 +5,54 @@ import Section from './Section';
 function Home() {
   return (
     <Container>
-      <Section />
-      <Section />
-      <Section />
-      <Section />
+      <Section
+        title="Model S"
+        descrition="Order Online for Touchless Delivery"
+        backgroundImg="../images/model-s.jpg"
+        leftBtnText="Customer Order"
+        rightBtnText="Existing Inventory"
+      />
+      <Section
+        title="Model Y"
+        description="Order Online for Touchless Delivery"
+        backgroundImg="../images/model-y.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Exiting Inventory"
+      />
+      <Section
+        title="Model 3"
+        description="Order Online for Touchless Delivery"
+        backgroundImg="../images/model-3.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Exiting Inventory"
+      />
+      <Section
+        title="Model X"
+        description="Order Online for Touchless Delivery"
+        backgroundImg="../images/model-x.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Exiting Inventory"
+      />
+      <Section
+        title="Lowest Cost Solar Panels in American"
+        description="Money-back guarantee"
+        backgroundImg="../images/solar-panel.jpg"
+        leftBtnText="Order-now"
+        rightBtnText="Learn more"
+      />
+      <Section
+        title="Solar for New Roofs"
+        description="Solar Roof Costs Less Than a New Roof Plus Panels"
+        backgroundImg="../images/solar-roof.jpg"
+        leftBtnText="Order-now"
+        rightBtnText="Learn more"
+      />
+      <Section
+        title="Accessories"
+        description=""
+        backgroundImg="../images/accessories.jpg"
+        leftBtnText="Shop now"
+      />
     </Container>
   );
 }
