@@ -7,7 +7,7 @@ function Home() {
     <Container>
       <Section
         title="Model S"
-        descrition="Order Online for Touchless Delivery"
+        description="Order Online for Touchless Delivery"
         backgroundImg="../images/model-s.jpg"
         leftBtnText="Customer Order"
         rightBtnText="Existing Inventory"
